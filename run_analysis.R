@@ -1,7 +1,6 @@
-#Access the local directory where downloaded files are located
-setwd("C:/Users/Florent/Desktop/MOOC/Getting and Cleaning Data/Prog Assignment/Data")
+#As per instructions, we assume we are working in the same directory where the Samsung files have been downloaded and unziped.
 
-#Before the work starts, Packages data.table and dplyr will have to be installed
+#Before the work starts, packages data.table and dplyr will have to be installed
 library(data.table)
 library(dplyr)
 
