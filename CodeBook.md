@@ -2,7 +2,7 @@
 
 ##Objective
 This Code Book explains how we have created a tidy data set from wearable computing data that is ready to be analyzed.
-It describes the variables, the data, and the transformations that are performed to clean up the data called through the script run_analysis.R
+It describes the variables, the data, and the transformations that are performed to clean up the data through the script run_analysis.R
 
 ##Data Source
 
@@ -59,7 +59,8 @@ Capital letters were used to begin labels, and the unuseful symbols were removed
 The fullSet was renamed set after expliciting the columns names.
 
 ###Reducing data to averages
-Averages of each measurement variables (the renamed ones in the previous section: columns 3 to 88) are calculated per Subject and Activity and reagregated into a new table named tidySet.
+Subjects and activities were turned into factors, to order the fullSet and sort it.
+Then, averages of each measurement variables (the renamed ones in the previous section: columns 3 to 88) are calculated per Subject and Activity and reagregated into a new table named tidySet.
 
 ##Output
 The output is written in a text file, named tidySet.
