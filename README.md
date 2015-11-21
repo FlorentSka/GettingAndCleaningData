@@ -4,11 +4,7 @@ Course Project for Data Science John Hopkins University 3rd course unit
 ##Preliminary Requirements
 
 ###Access
-Get access to the local directory where downloaded files are located.
-In this case, the directory is:
-```
-setwd("C:/Users/Florent/Desktop/MOOC/Getting and Cleaning Data/Prog Assignment/Data")
-```
+We assume we are working out of the same directory where the Samsung files have been downloaded and unziped.
 
 ###Libraries
 Before the work starts, Packages data.table and dplyr will have to be installed.
