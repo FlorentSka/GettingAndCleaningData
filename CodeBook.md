@@ -56,10 +56,10 @@ Capital letters were used to begin labels, and the unuseful symbols were removed
 "TimeGravityAccelerometerMeanX"
 "TimeGravityAccelerometerMeanY"
 
-The fullSet was renamed set after expliciting the columns names.
+The fullSet was simply renamed set after expliciting the columns names.
 
 ###Reducing data to averages
-Subjects and activities were turned into factors, to order the fullSet and sort it.
+Subjects and activities were turned into factors, to order set and sort it.
 Then, averages of each measurement variables (the renamed ones in the previous section: columns 3 to 88) are calculated per Subject and Activity and reagregated into a new table named tidySet.
 
 ##Output
